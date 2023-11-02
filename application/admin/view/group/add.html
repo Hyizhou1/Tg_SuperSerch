@@ -1,0 +1,256 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_id" data-rule="required" class="form-control" name="row[member_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tggroup_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tggroup_id" data-rule="required" class="form-control" name="row[tggroup_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-group_username" data-rule="required" class="form-control" name="row[group_username]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-group_type" data-rule="required" class="form-control selectpicker" name="row[group_type]">
+                {foreach name="groupTypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_nick')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-group_nick" data-rule="required" class="form-control" name="row[group_nick]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-group_content" class="form-control editor" rows="5" name="row[group_content]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_count')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-group_count" data-rule="required" class="form-control" name="row[group_count]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_img')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-group_img" class="form-control" name="row[group_img]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Iscj')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-iscj" data-rule="required" class="form-control selectpicker" name="row[iscj]">
+                {foreach name="iscjList" item="vo"}
+                    <option value="{$key}" {in name="key" value="1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Issearch')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-issearch" data-rule="required" class="form-control selectpicker" name="row[issearch]">
+                {foreach name="issearchList" item="vo"}
+                    <option value="{$key}" {in name="key" value="1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Istop')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-istop" data-rule="required" class="form-control selectpicker" name="row[istop]">
+                {foreach name="istopList" item="vo"}
+                    <option value="{$key}" {in name="key" value="1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Isshield')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-isshield" data-rule="required" class="form-control selectpicker" name="row[isshield]">
+                {foreach name="isshieldList" item="vo"}
+                    <option value="{$key}" {in name="key" value="2"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Shieldkeyword')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-shieldkeyword" class="form-control " rows="5" name="row[shieldkeyword]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Keywordtisp')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-keywordtisp" class="form-control " rows="5" name="row[keywordtisp]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Isenter')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-isenter" data-rule="required" class="form-control selectpicker" name="row[isenter]">
+                {foreach name="isenterList" item="vo"}
+                    <option value="{$key}" {in name="key" value="2"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Entertype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-entertype" class="form-control selectpicker" name="row[entertype]">
+                {foreach name="entertypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="0"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Entertext')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-entertext" class="form-control " rows="5" name="row[entertext]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Fileurl')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fileurl" class="form-control" name="row[fileurl]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Button')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-button" class="form-control " rows="5" name="row[button]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Isenteradv')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-isenteradv" data-rule="required" class="form-control selectpicker" name="row[isenteradv]">
+                {foreach name="isenteradvList" item="vo"}
+                    <option value="{$key}" {in name="key" value="1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Timeadv')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-timeadv" data-rule="required" class="form-control selectpicker" name="row[timeadv]">
+                {foreach name="timeadvList" item="vo"}
+                    <option value="{$key}" {in name="key" value="2"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Timetype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-timetype" class="form-control selectpicker" name="row[timetype]">
+                {foreach name="timetypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="0"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Timetext')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-timetext" class="form-control " rows="5" name="row[timetext]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Timefileurl')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-timefileurl" class="form-control" name="row[timefileurl]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Timebutton')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-timebutton" class="form-control " rows="5" name="row[timebutton]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Handle')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-handle" data-rule="required" class="form-control selectpicker" name="row[handle]">
+                {foreach name="handleList" item="vo"}
+                    <option value="{$key}" {in name="key" value="0"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Searchcount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-searchcount" data-rule="required" class="form-control" name="row[searchcount]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Group_status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="groupStatusList" item="vo"}
+            <label for="row[group_status]-{$key}"><input id="row[group_status]-{$key}" name="row[group_status]" type="radio" value="{$key}" {in name="key" value="1"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Addtime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-addtime" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[addtime]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

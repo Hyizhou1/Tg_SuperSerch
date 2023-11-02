@@ -1,0 +1,68 @@
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta name="referrer" content="never">
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="shortcut icon" href="__CDN__/assets/img/favicon.ico" />
+<!-- Loading Bootstrap -->
+<link href="__CDN__/assets/css/backend{$Think.config.app_debug?'':'.min'}.css?v={$Think.config.site.version}" rel="stylesheet">
+<link href="__CDN__/assets/css/skins/{$Think.config.fastadmin.adminskin}.css?v={$Think.config.site.version}" rel="stylesheet">
+</head>
+<body>
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Isenter')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-isenter" data-rule="required" class="form-control selectpicker" name="isenter">
+                
+                    <option value="0">关闭</option>
+
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Entertype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-entertype" class="form-control selectpicker" name="entertype">
+                
+                    <option value="0">纯文本</option>
+                
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Entertext')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-entertext" class="form-control " rows="5" name="entertext" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Fileurl')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-fileurl" class="form-control" name="fileurl" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Button')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-button" class="form-control " rows="5" name="button" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
+<script src="__CDN__/assets/js/require{$Think.config.app_debug?'':'.min'}.js" data-main="__CDN__/assets/js/require-backend{$Think.config.app_debug?'':'.min'}.js?v={$site.version|htmlentities}"></script>
+</body>
+</html>

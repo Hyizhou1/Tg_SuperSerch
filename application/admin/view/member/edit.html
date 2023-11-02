@@ -1,0 +1,82 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tg_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tg_id" data-rule="required" class="form-control" name="row[tg_id]" type="text" value="{$row.tg_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text" value="{$row.username|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Firstname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-firstname" class="form-control" name="row[firstname]" type="text" value="{$row.firstname|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lastname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lastname" class="form-control" name="row[lastname]" type="text" value="{$row.lastname|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Headimg')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-headimg" class="form-control" name="row[headimg]" type="text" value="{$row.headimg|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Money')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-money" data-rule="required" class="form-control" step="0.01" name="row[money]" type="number" value="{$row.money|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Coin')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-coin" data-rule="required" class="form-control" name="row[coin]" type="number" value="{$row.coin|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Utoken')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-utoken" class="form-control" name="row[utoken]" type="text" value="{$row.utoken|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ishhr')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-ishhr" data-rule="required" class="form-control selectpicker" name="row[ishhr]">
+                {foreach name="ishhrList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.ishhr"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Member_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-member_id" data-rule="required" class="form-control" name="row[member_id]" type="number" value="{$row.member_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Addtime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-addtime" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[addtime]" type="text" value="{:$row.addtime?datetime($row.addtime):''}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
