@@ -10,6 +10,16 @@
 * 置顶广告、底部广告、进群广告关键词广告都可自行设置
 * 后台管理管理系统 一键化配置
 * 测试群组https://t.me/sousuo_q
+骗子曝光
+
+骗子1、
+TG：[https://t.me/autopqk](https://t.me/buzhiguiqi)
+
+TG机器人:[https://t.me/sousou123_bot](https://t.me/thisindexBot)
+
+TG群组:[https://t.me/sousuo_q](https://t.me/thisindexd)
+
+git地址:[https://github.com/mmmrp/telegram-sousuo](https://github.com/tuziaichiwobiancao/tgindex)
 
 2.6.19修复收录问题
 
