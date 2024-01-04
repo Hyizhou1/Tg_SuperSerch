@@ -13,16 +13,6 @@
 * 测试后台地址https://test.autopqk.lol/wocaole.php  账户test 密码000000
 * tg红包雷代码地址：https://github.com/mmmrp/tg_hongbao
 ### 150万群组、频道 数据免费送 支持@hwdb担保交易
-### 骗子曝光
-骗子1、
-TG：https://t.me/buzhiguiqi
-
-TG机器人:https://t.me/thisindexBot
-
-TG群组:https://t.me/thisindexd
-
-git地址:https://github.com/tuziaichiwobiancao/tgindex
-
 2.6.19修复收录问题
 
 新增从私信提交群组或频道判断机器人是否再群组中并赋予了管理员权限
