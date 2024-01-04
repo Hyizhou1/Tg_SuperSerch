@@ -10,7 +10,7 @@
 * 置顶广告、底部广告、进群广告关键词广告都可自行设置
 * 后台管理管理系统 一键化配置
 * 测试群组https://t.me/sousuo_q
-* 测试后台地址https://test.autopqk.lol  账户test 密码000000
+* 测试后台地址https://test.autopqk.lol/wocaole.php  账户test 密码000000
 ### 150万群组、频道 数据免费送 支持@hwdb担保交易
 ### 骗子曝光
 骗子1、
