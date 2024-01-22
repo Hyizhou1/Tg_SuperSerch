@@ -12,7 +12,7 @@
 * 测试群组https://t.me/sousuo_q
 * 测试后台地址https://test.autopqk.lol/wocaole.php  账户test 密码000000
 * tg红包雷 可自助充值 提现 地址：https://github.com/mmmrp/tg_hongbao
-### 150万群组、频道 数据免费送 支持担保交易
+# 150万群组、频道 数据免费送 支持担保交易
 2.6.19修复收录问题
 
 新增从私信提交群组或频道判断机器人是否再群组中并赋予了管理员权限
