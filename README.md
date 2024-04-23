@@ -13,8 +13,11 @@
 # 50万群组、频道 数据免费送  支持[@hwdb](https://t.me/hwdb) 汇旺担保交易  可先搭建后付费
 
 # 另外还有各种机器人 代摇快三牛牛三公推机器人源码 验群机器人源码 算账机器人源码等等 欢迎咨询
-![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/e9e1a560-718a-49b5-9939-7717cad78e07)
-![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/2a4e3011-e137-4709-8a6c-beac9d13a504)
-![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/46356b98-aac6-4303-81d8-3d1ca313f694)
-![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/3a6a26af-7dab-4b5a-b6e6-a330b246db66)
-![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/3cdb9c0c-4bb8-43b3-b659-80231b922fae)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/e2584edf-ba01-4424-ae06-7e6600f7d88f)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/992f587d-4fbc-4d2f-8b92-091a0376fae8)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/1a0a7113-01a6-423d-98dc-bb469b3d2e0d)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/c51e85d9-4c24-4a08-abd8-341ef4c2988b)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/1685753e-1eb0-4dc0-9d30-e0e51ec98473)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/db7bbbb0-504e-4d57-a522-7ecd579c08b3)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/25b4c2d2-b3e9-4ccc-991b-a67afd04eee1)
+![image](https://github.com/Hyizhou1/Tg_SuperSerch/assets/104135021/63230561-afeb-4381-a28b-c9a5138d1df7)
